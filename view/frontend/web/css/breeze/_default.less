@@ -1,0 +1,10 @@
+& when (@critical) {
+    //@import 'Bss_QuantityDropdown::css/source/_module.less';
+    select[bss-qty-dropdown="bss-qty-dropdown"] {
+        margin-bottom: 10px;
+
+        .field.qty > .control:has(&) {
+            max-width: none;
+        }
+    }
+}
